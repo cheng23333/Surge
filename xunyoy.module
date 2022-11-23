@@ -1,0 +1,9 @@
+#!name=迅游
+#!desc=vip
+
+[Script]
+迅游手游加速器+解锁VIP = type=http-response,pattern=^https:\/\/api\.xunyou\.mobi\/api\/v1\/android\/sessions,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xyjsq.js
+ 
+
+[MITM]
+hostname= %APPEND% api.xunyou.mobi
