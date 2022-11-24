@@ -6,7 +6,7 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)) url script-request-header https://raw.github.com/cheng23333/Surge/blob/main/xmlyqx.js
+^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)) url script-request-header https://raw.githubusercontent.com/cheng23333/Surge/main/xmlyqx.js
 
 [mitm] 
 hostname = commerce-api.faceu.mobi
