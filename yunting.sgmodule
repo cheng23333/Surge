@@ -1,0 +1,10 @@
+#!name=云听
+#!desc=解锁VIP功能
+
+[Script]
+云听 解锁VIP功能 = type=http-response,pattern=^http:\/\/getway\.radio\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/yunting.js
+
+ 
+
+[MITM]
+hostname= %APPEND% *.radio.cn
