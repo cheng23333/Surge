@@ -1,0 +1,9 @@
+#!name=iranslate
+#!desc=翻译+解锁订阅
+
+[Script]
+ 
+iranslate 翻译+解锁订阅  = type=http-request,pattern=https://ssl-api.itranslateapp.com/accounts/v4/subscriptions/verify/ios,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/iTranslate.js
+
+[MITM]
+hostname= %APPEND% ssl-api.itranslateapp.com
